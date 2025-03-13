@@ -1,0 +1,12 @@
+// .vscode/settings.json
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "eslint.validate": [
+        "javascript",
+        "typescript",
+        "vue"
+    ],
+    "scss.lint.unknownAtRules": "ignore"
+}
