@@ -1,9 +1,14 @@
-// src/router/index.ts
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router';
+import TemplatePage from '@/views/TemplatePage.vue';
 
 const router = createRouter({
   history: createWebHistory(),
   routes: [
+    {
+      path: '/template',
+      component: TemplatePage
+    },
+    
     {
       path: '/',
       component: () => import('@/views/LandingPage.vue'),
@@ -20,4 +25,6 @@ const router = createRouter({
       ]
     }
   ]
-})
+});
+
+export default router;

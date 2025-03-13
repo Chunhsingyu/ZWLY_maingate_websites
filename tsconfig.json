@@ -21,10 +21,16 @@
       "@/*": [
         "src/*"
       ]
-    }
+    },
+    "types": [
+      "vite/client",
+      "node"
+    ]
   },
   "include": [
-    "src/**/*"
+    "src/**/*",
+    "src/**/*.ts",
+    "src/**/*.vue"
   ],
   "exclude": [
     "node_modules",
