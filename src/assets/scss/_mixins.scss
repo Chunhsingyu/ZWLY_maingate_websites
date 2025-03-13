@@ -1,0 +1,6 @@
+// src/assets/scss/_mixins.scss
+@mixin respond-to($breakpoint) {
+    @media (min-width: map-get($breakpoints, $breakpoint)) {
+        @content;
+    }
+}

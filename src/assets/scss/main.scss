@@ -1,0 +1,13 @@
+// src/assets/scss/main.scss
+@use 'variables' as *;
+@use 'mixins' as *;
+
+:root {
+    --primary-color: #{$primary-color};
+    --text-color: #{rgba(0,0,0,0.87)};
+}
+
+body {
+    font-family: 'CustomFont', sans-serif;
+    color: $primary-color;
+}
